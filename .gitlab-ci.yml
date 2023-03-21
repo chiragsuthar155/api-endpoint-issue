@@ -9,5 +9,6 @@ Build:
         - nslookup aemcms-commons-ud.milliporesigma.io
         #- ping ecommerceweb-ud.milliporesigma.io
         - nslookup ecommerceweb-ud.milliporesigma.io
+        - sleep 50000
         - curl http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
         - curl https://aemcms-commons-ud.milliporesigma.io/sigmaaldrich/US/en/navigation.model.json
