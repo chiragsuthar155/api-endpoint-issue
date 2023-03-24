@@ -2,7 +2,7 @@ stages:
     - build
 
 Build:
-    image: busybox:latest
+    image: ubuntu
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
