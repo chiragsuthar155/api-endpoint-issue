@@ -2,15 +2,15 @@ stages:
     - build
 
 Build:
-    image: yauritux/busybox-curl
+    image: node:16-alpine
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
         - nslookup aemcms-commons-ud.milliporesigma.io
         #- ping ecommerceweb-ud.milliporesigma.io
         - nslookup ecommerceweb-ud.milliporesigma.io
-       # - sleep 50000
-        - wget http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
+        - sleep 50000
+        #- wget http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
         #- wget https://aemcms-commons-ud.milliporesigma.io/sigmaaldrich/US/en/navigation.model.json
        # - apk --no-cache add curl
-        - sh api.sh
+        #- sh api.sh
