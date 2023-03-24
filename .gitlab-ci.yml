@@ -2,7 +2,7 @@ stages:
     - build
 
 Build:
-    image: node:16-alpine
+    image: busybox:latest
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
