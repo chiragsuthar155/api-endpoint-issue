@@ -2,7 +2,7 @@ stages:
     - build
 
 Build:
-    image: nginx
+    image: yauritux/busybox-curl
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
