@@ -12,4 +12,4 @@ Build:
        # - sleep 50000
         - wget http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
         - wget https://aemcms-commons-ud.milliporesigma.io/sigmaaldrich/US/en/navigation.model.json
-        - bash api.sh
+        - sh api.sh
