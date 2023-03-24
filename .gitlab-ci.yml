@@ -2,7 +2,7 @@ stages:
     - build
 
 Build:
-    image: ubuntu
+    image: nginx
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
