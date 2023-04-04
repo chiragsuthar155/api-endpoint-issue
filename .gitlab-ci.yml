@@ -13,4 +13,4 @@ Build:
         #- wget http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
         #- wget https://aemcms-commons-ud.milliporesigma.io/sigmaaldrich/US/en/navigation.model.json
         - apk --no-cache add curl
-        - sh api.sh
+        #- sh api.sh
