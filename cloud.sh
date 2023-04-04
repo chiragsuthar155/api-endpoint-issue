@@ -11,7 +11,7 @@ do
   sleep 1
   
   echo "==============ECOM CURL======================"
-  curl -I https://cloud-analytics.sial.com
+  curl --insecure -I https://cloud-analytics.sial.com
   sleep 1
 
 
