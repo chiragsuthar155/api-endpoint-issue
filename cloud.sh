@@ -11,7 +11,7 @@ do
   sleep 1
   
   echo "==============ECOM CURL======================"
-  curl --insecure -I 'https://cloud-analytics.sial.com/deep?get=recentlyViewedAPI&guid=GA1.2.1607803001.1571084413&country=US&language=en&product=t1503&brand=sigma&count=10&addProduct=1&disp=recentlyViewedAdvancedSearch'
+  curl --insecure -I "https://cloud-analytics.sial.com/deep?get=recentlyViewedAPI&guid=GA1.2.1607803001.1571084413&country=US&language=en&product=t1503&brand=sigma&count=10&addProduct=1&disp=recentlyViewedAdvancedSearch"
   sleep 1
 
 
