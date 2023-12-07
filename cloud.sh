@@ -8,6 +8,7 @@ do
 
   echo "==============ECOM NSLOOKUP=================="
   nslookup cloud-analytics.sial.com
+  nslookup repo.maven.apache.org
   sleep 1
   
   echo "==============ECOM CURL======================"
