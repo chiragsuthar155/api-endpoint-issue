@@ -2,17 +2,19 @@ stages:
     - build
 
 Build:
-    image: node:16-alpine
+    # image: node:16-alpine
+    image: dfwpharb01.sial.com/baseos/ecommerce/node:20.12.1-alpine-merckroot
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
-        - nslookup aemcms-commons-ud.milliporesigma.io
+        - nslookup adm.sigmaaldrich.com
+        #- nslookup aemcms-commons-ud.milliporesigma.io
         #- ping ecommerceweb-ud.milliporesigma.io
-        - nslookup ecommerceweb-ud.milliporesigma.io
+        #- nslookup ecommerceweb-ud.milliporesigma.io
         #- sleep 50000
         #- wget http://ecommerceweb-ud.milliporesigma.io:80/ecommerce/v3/regions 
         #- wget https://aemcms-commons-ud.milliporesigma.io/sigmaaldrich/US/en/navigation.model.json
         - apk --no-cache add curl
-        #- sleep 50000
+        - sleep 50000
         - sh cloud.sh
         #- sh api.sh
