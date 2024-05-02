@@ -2,8 +2,8 @@ stages:
     - build
 
 Build:
-    # image: node:16-alpine
-    image: dfwpharb01.sial.com/baseos/ecommerce/node:20.12.1-alpine-merckroot
+    image: ubuntu:latest
+    #image: dfwpharb01.sial.com/baseos/ecommerce/node:20.12.1-alpine-merckroot
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
