@@ -7,6 +7,7 @@ Build:
     stage: build
     script:
        # - ping aemcms-commons-ud.milliporesigma.io
+        - sleep 5000
         - nslookup adm.sigmaaldrich.com
         #- nslookup aemcms-commons-ud.milliporesigma.io
         #- ping ecommerceweb-ud.milliporesigma.io
